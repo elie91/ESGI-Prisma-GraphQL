@@ -25,9 +25,9 @@ const typeDefs = `
         createPost(title: String!, content: String!): Post!
     }
     type Post {
-         id: Int
-         title: String
-         content: String
+         id: Int!
+         title: String!
+         content: String!
     }
   `
 
